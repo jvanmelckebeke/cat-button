@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cat-image {
+            width: 100vw;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <button>
-        <img src="cat.jpg" alt="Cat" style="width: 100vw; height: auto;">
+    <button onclick="playMeow()">
+        <img src="cat.jpg" alt="Cat" class="cat-image">
     </button>
+    
+    <script>
+        function playMeow() {
+            const audio = new Audio('Cat-screaming-sound-effect.mp3');
+            audio.play();
+        }
+    </script>
 </body>
 </html>
