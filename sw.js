@@ -1,9 +1,9 @@
 const CACHE_NAME = 'cat-button-pwa-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/cat.jpg',
-  '/Cat-screaming-sound-effect.mp3'
+  '/cat-button/',
+  '/cat-button/index.html',
+  '/cat-button/cat.jpg',
+  '/cat-button/Cat-screaming-sound-effect.mp3'
 ];
 
 // Install event - cache resources

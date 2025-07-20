@@ -2,7 +2,7 @@
   "name": "Cat Button PWA",
   "short_name": "CatButton",
   "description": "A simple PWA with a cat button that plays sounds",
-  "start_url": "/",
+  "start_url": "/cat-button/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
